@@ -33,6 +33,12 @@
 		B8F8081B19A3502D0047C24B /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F8081319A3502D0047C24B /* RSDFDatePickerDaysOfWeekView.m */; };
 		B8F8081C19A3502D0047C24B /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F8081519A3502D0047C24B /* RSDFDatePickerMonthHeader.m */; };
 		B8F8081D19A3502D0047C24B /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F8081719A3502D0047C24B /* RSDFDatePickerView.m */; };
+		FA744A6319B32807006C72BF /* RSDFCustomDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A5819B32807006C72BF /* RSDFCustomDatePickerCollectionView.m */; };
+		FA744A6419B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A5A19B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.m */; };
+		FA744A6519B32807006C72BF /* RSDFCustomDatePickerDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A5C19B32807006C72BF /* RSDFCustomDatePickerDayCell.m */; };
+		FA744A6619B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A5E19B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.m */; };
+		FA744A6719B32807006C72BF /* RSDFCustomDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A6019B32807006C72BF /* RSDFCustomDatePickerMonthHeader.m */; };
+		FA744A6819B32807006C72BF /* RSDFCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA744A6219B32807006C72BF /* RSDFCustomDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +97,18 @@
 		B8F8081519A3502D0047C24B /* RSDFDatePickerMonthHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerMonthHeader.m; sourceTree = "<group>"; };
 		B8F8081619A3502D0047C24B /* RSDFDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFDatePickerView.h; sourceTree = "<group>"; };
 		B8F8081719A3502D0047C24B /* RSDFDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFDatePickerView.m; sourceTree = "<group>"; };
+		FA744A5719B32807006C72BF /* RSDFCustomDatePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerCollectionView.h; sourceTree = "<group>"; };
+		FA744A5819B32807006C72BF /* RSDFCustomDatePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerCollectionView.m; sourceTree = "<group>"; };
+		FA744A5919B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		FA744A5A19B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		FA744A5B19B32807006C72BF /* RSDFCustomDatePickerDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerDayCell.h; sourceTree = "<group>"; };
+		FA744A5C19B32807006C72BF /* RSDFCustomDatePickerDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerDayCell.m; sourceTree = "<group>"; };
+		FA744A5D19B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerDaysOfWeekView.h; sourceTree = "<group>"; };
+		FA744A5E19B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerDaysOfWeekView.m; sourceTree = "<group>"; };
+		FA744A5F19B32807006C72BF /* RSDFCustomDatePickerMonthHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerMonthHeader.h; sourceTree = "<group>"; };
+		FA744A6019B32807006C72BF /* RSDFCustomDatePickerMonthHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerMonthHeader.m; sourceTree = "<group>"; };
+		FA744A6119B32807006C72BF /* RSDFCustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDFCustomDatePickerView.h; sourceTree = "<group>"; };
+		FA744A6219B32807006C72BF /* RSDFCustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDFCustomDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +248,7 @@
 		B8F8080919A3502D0047C24B /* RSDayFlow */ = {
 			isa = PBXGroup;
 			children = (
+				FA744A5619B32807006C72BF /* customView */,
 				B8F8080D19A3502D0047C24B /* RSDayFlow.h */,
 				B8F8081619A3502D0047C24B /* RSDFDatePickerView.h */,
 				B8F8081719A3502D0047C24B /* RSDFDatePickerView.m */,
@@ -248,6 +267,25 @@
 			);
 			name = RSDayFlow;
 			path = ../RSDayFlow;
+			sourceTree = "<group>";
+		};
+		FA744A5619B32807006C72BF /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				FA744A5719B32807006C72BF /* RSDFCustomDatePickerCollectionView.h */,
+				FA744A5819B32807006C72BF /* RSDFCustomDatePickerCollectionView.m */,
+				FA744A5919B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.h */,
+				FA744A5A19B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.m */,
+				FA744A5B19B32807006C72BF /* RSDFCustomDatePickerDayCell.h */,
+				FA744A5C19B32807006C72BF /* RSDFCustomDatePickerDayCell.m */,
+				FA744A5D19B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.h */,
+				FA744A5E19B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.m */,
+				FA744A5F19B32807006C72BF /* RSDFCustomDatePickerMonthHeader.h */,
+				FA744A6019B32807006C72BF /* RSDFCustomDatePickerMonthHeader.m */,
+				FA744A6119B32807006C72BF /* RSDFCustomDatePickerView.h */,
+				FA744A6219B32807006C72BF /* RSDFCustomDatePickerView.m */,
+			);
+			path = customView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,21 +384,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA744A6819B32807006C72BF /* RSDFCustomDatePickerView.m in Sources */,
+				FA744A6719B32807006C72BF /* RSDFCustomDatePickerMonthHeader.m in Sources */,
+				FA744A6419B32807006C72BF /* RSDFCustomDatePickerCollectionViewLayout.m in Sources */,
 				B82FFFA619A37EDB000816FF /* RSDFCustomDatePickerCollectionViewLayout.m in Sources */,
 				B82FFFA519A37EDB000816FF /* RSDFCustomDatePickerCollectionView.m in Sources */,
 				B8F8081C19A3502D0047C24B /* RSDFDatePickerMonthHeader.m in Sources */,
 				B82FFFA919A37EDB000816FF /* RSDFCustomDatePickerMonthHeader.m in Sources */,
 				B8F807CD19A34B9A0047C24B /* main.m in Sources */,
 				B82FFFA819A37EDB000816FF /* RSDFCustomDatePickerDaysOfWeekView.m in Sources */,
+				FA744A6319B32807006C72BF /* RSDFCustomDatePickerCollectionView.m in Sources */,
 				B82FFFAA19A37EDB000816FF /* RSDFCustomDatePickerView.m in Sources */,
 				B8F8081D19A3502D0047C24B /* RSDFDatePickerView.m in Sources */,
 				B8F8081A19A3502D0047C24B /* RSDFDatePickerDayCell.m in Sources */,
 				B8F8081819A3502D0047C24B /* NSCalendar+RSDFAdditions.m in Sources */,
 				B82FFF9819A35722000816FF /* RSDFDatePickerCollectionViewLayout.m in Sources */,
 				B8F8081B19A3502D0047C24B /* RSDFDatePickerDaysOfWeekView.m in Sources */,
+				FA744A6619B32807006C72BF /* RSDFCustomDatePickerDaysOfWeekView.m in Sources */,
 				B8F8080819A34CDC0047C24B /* RSDFDatePickerViewController.m in Sources */,
 				B82FFFA719A37EDB000816FF /* RSDFCustomDatePickerDayCell.m in Sources */,
 				B8F807D119A34B9A0047C24B /* RSDFAppDelegate.m in Sources */,
+				FA744A6519B32807006C72BF /* RSDFCustomDatePickerDayCell.m in Sources */,
 				B8F8081919A3502D0047C24B /* RSDFDatePickerCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
